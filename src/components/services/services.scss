@@ -1,0 +1,90 @@
+// .container {
+//     display: block;
+//     margin: auto;
+//     width: 100%;
+//     overflow-y: hidden;
+
+//     .services {
+//         display: flex;
+//         justify-content: space-around;
+//         align-items: center;
+//         width: 60%;
+//         margin: auto;
+//         overflow-y: hidden;
+
+//         .item1,
+//         .item2 {
+//             overflow-y: hidden;
+//             // border: 2px solid rgba(103, 53, 53, 1);
+//             height: 30vh;
+//             font-family: 'Anek Odia';
+//             color: rgba(103, 53, 53, 1);
+//             width: 30%;
+
+//             h3 {
+//                 font-size: 40px;
+//                 letter-spacing: 2px;
+//                 margin-bottom: 20px;
+//             }
+
+//             p {
+//                 font-size: 19px;
+//                 line-height: 1.5;
+//                 overflow-y: hidden;
+//             }
+//         }
+
+//     }
+
+//     .line {
+//         height: 20px;
+//         width: 1px;
+//         border-bottom: 1px solid #000;
+//         -webkit-animation: increase 3s;
+//         -moz-animation: increase 3s;
+//         -o-animation: increase 3s;
+//         animation: increase 3s;
+//         animation-fill-mode: forwards;
+//     }
+
+//     @keyframes increase {
+//         100% {
+//             width: 300px;
+//         }
+//     }
+// }
+
+.services {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    height: 100%;
+    align-items: center;
+
+    .block {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-between;
+        width: 40%;
+        margin: auto;
+
+        .item {
+            font-family: 'Anek Odia';
+            color: rgba(103, 53, 53, 1);
+
+            h3 {
+                font-size: 40px;
+                letter-spacing: 2px;
+                margin-bottom: 10px;
+            }
+
+            p {
+                font-size: 19px;
+                line-height: 1.5;
+                overflow-y: hidden;
+            }
+        }
+    }
+
+}
